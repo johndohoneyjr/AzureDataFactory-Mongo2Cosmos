@@ -6,10 +6,10 @@ This repo is ready to run from Powershell or the Azure CLI.  To create this
 * Create a Data Factory
 * Select "Author and Monitor"
 * Create your "Linked Services" -- this is the actual connection, 
-*  in this case to MongoDB and Cosmos DB (Briefcase Icon with a Wrench on it)
+  in this case to MongoDB and Cosmos DB (Briefcase Icon with a Wrench on it)
 * Two Data sets need to be created, one for Source and another for Sink
 * Finally, the Pipeline itself -- Select "Move Data".  There you add the 
-*  Linked Services for connecting and the Data Sets for Persistence
+  Linked Services for connecting and the Data Sets for Persistence
     
  For the purposes of learning, I triggered the run with the "Debug" option.  You
  can watch the progress in the Debug pane, or Click the Monitor Icon and see all
