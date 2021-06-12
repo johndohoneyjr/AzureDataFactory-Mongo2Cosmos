@@ -15,7 +15,7 @@ This repo is ready to run from Powershell or the Azure CLI.  To create this
  can watch the progress in the Debug pane, or Click the Monitor Icon and see all
  triggered or Debug runs
  
- #Summmary
+ # Summmary
  Azure Data Factory is a power tool to move data around, whether inside of Azure or
  to and from Azure.  Many fine tutorial exist, but most of this is rather intuitive, and
  it is more fun to figure it out.
