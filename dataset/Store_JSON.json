@@ -1,0 +1,20 @@
+{
+	"name": "Store_JSON",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "movies",
+				"folderPath": "mflix-dump",
+				"container": "dohoneytestdata"
+			}
+		},
+		"schema": {}
+	}
+}
