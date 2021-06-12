@@ -1,4 +1,8 @@
 # AzureDataFactory-Mongo2Cosmos
+Azure Data Factory: ![Alt][1]
+
+[1]: /ADF.jpg
+
 This is an ADF Pipeline to copy data out of MongoDB Atlas to Azure Cosmos
 
 # Steps
