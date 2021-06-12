@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "Copy MongoDB to Cosmos",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -13,7 +13,6 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
 				"typeProperties": {
 					"source": {
 						"type": "MongoDbV2Source",
@@ -22,7 +21,7 @@
 					"sink": {
 						"type": "CosmosDbMongoDbApiSink",
 						"writeBatchTimeout": "00:30:00",
-						"writeBatchSize": 10,
+						"writeBatchSize": 1,
 						"writeBehavior": "insert"
 					},
 					"enableStaging": false
