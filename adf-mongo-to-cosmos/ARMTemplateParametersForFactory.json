@@ -8,20 +8,20 @@
 		"AzureBlobStorage_connectionString": {
 			"value": ""
 		},
-		"MongoDbAtlas_connectionString": {
+		"CosmosDbMongoDbApi1_connectionString": {
 			"value": ""
 		},
-		"CosmosDbMongoDbApi1_connectionString": {
+		"MongoDbAtlas_connectionString": {
 			"value": ""
 		},
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"value": "https://dohoney-kv-adf.vault.azure.net/"
 		},
-		"MongoDbAtlas_properties_typeProperties_database": {
-			"value": "sample_mflix"
-		},
 		"CosmosDbMongoDbApi1_properties_typeProperties_database": {
 			"value": "mflix"
+		},
+		"MongoDbAtlas_properties_typeProperties_database": {
+			"value": "sample_mflix"
 		}
 	}
 }

@@ -11,25 +11,25 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage'"
 		},
-		"MongoDbAtlas_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'MongoDbAtlas'"
-		},
 		"CosmosDbMongoDbApi1_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'CosmosDbMongoDbApi1'"
+		},
+		"MongoDbAtlas_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'MongoDbAtlas'"
 		},
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"type": "string",
 			"defaultValue": "https://dohoney-kv-adf.vault.azure.net/"
 		},
-		"MongoDbAtlas_properties_typeProperties_database": {
-			"type": "string",
-			"defaultValue": "sample_mflix"
-		},
 		"CosmosDbMongoDbApi1_properties_typeProperties_database": {
 			"type": "string",
 			"defaultValue": "mflix"
+		},
+		"MongoDbAtlas_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "sample_mflix"
 		},
 		"containerUri": {
 			"type": "string",
@@ -61,20 +61,20 @@
 					"AzureBlobStorage_connectionString": {
 						"value": "[parameters('AzureBlobStorage_connectionString')]"
 					},
-					"MongoDbAtlas_connectionString": {
-						"value": "[parameters('MongoDbAtlas_connectionString')]"
-					},
 					"CosmosDbMongoDbApi1_connectionString": {
 						"value": "[parameters('CosmosDbMongoDbApi1_connectionString')]"
+					},
+					"MongoDbAtlas_connectionString": {
+						"value": "[parameters('MongoDbAtlas_connectionString')]"
 					},
 					"AzureKeyVault1_properties_typeProperties_baseUrl": {
 						"value": "[parameters('AzureKeyVault1_properties_typeProperties_baseUrl')]"
 					},
-					"MongoDbAtlas_properties_typeProperties_database": {
-						"value": "[parameters('MongoDbAtlas_properties_typeProperties_database')]"
-					},
 					"CosmosDbMongoDbApi1_properties_typeProperties_database": {
 						"value": "[parameters('CosmosDbMongoDbApi1_properties_typeProperties_database')]"
+					},
+					"MongoDbAtlas_properties_typeProperties_database": {
+						"value": "[parameters('MongoDbAtlas_properties_typeProperties_database')]"
 					}
 				}
 			},
