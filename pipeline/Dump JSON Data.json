@@ -17,18 +17,23 @@
 				"typeProperties": {
 					"source": {
 						"type": "CosmosDbMongoDbApiSource",
-						"batchSize": 100
+						"batchSize": 1
 					},
 					"sink": {
 						"type": "JsonSink",
 						"storeSettings": {
-							"type": "AzureBlobStorageWriteSettings"
+							"type": "AzureBlobStorageWriteSettings",
+							"maxConcurrentConnections": 1,
+							"copyBehavior": "PreserveHierarchy",
+							"blockSizeInMB": 4
 						},
 						"formatSettings": {
-							"type": "JsonWriteSettings"
+							"type": "JsonWriteSettings",
+							"filePattern": "setOfObjects"
 						}
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"parallelCopies": 1
 				},
 				"inputs": [
 					{
