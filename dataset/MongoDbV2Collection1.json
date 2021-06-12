@@ -1,0 +1,15 @@
+{
+	"name": "MongoDbV2Collection1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MongoDbAtlas",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MongoDbV2Collection",
+		"schema": [],
+		"typeProperties": {
+			"collection": "movies"
+		}
+	}
+}
