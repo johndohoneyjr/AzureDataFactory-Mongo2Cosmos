@@ -11,8 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "movies",
-				"folderPath": "mflix-dump",
-				"container": "dohoneytestdata"
+				"container": "mflix-dump"
 			}
 		},
 		"schema": {}
